@@ -29,7 +29,7 @@ function App() {
         <Result rightPercentage={rightPercentage} showResult={showResult} setShowResult={setShowResult} setQuestionIndex={setQuestionIndex}/>
       ) : (
         <div>
-          <h1>Quiz App</h1>
+          <h1 style={{textAlign:"center", fontSize:"36px"}}>Quiz App</h1>
           <Question q={data[questionIndex]} setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowResult={setShowResult} showResult={showResult} setRightPercentage={setRightPercentage} rightPercentage={rightPercentage}/>
         </div>
       )}

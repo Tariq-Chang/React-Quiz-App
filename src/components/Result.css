@@ -1,0 +1,22 @@
+.result__container{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.result__container > h1{
+    font-size:48px;
+    color:#2f2f2f;
+}
+
+.result__container > button{
+    background:#2c2c2c;
+    color:white;
+    width:80px;
+    height:35px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
